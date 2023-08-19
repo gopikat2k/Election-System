@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../new work"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Election system"
+	}
+}

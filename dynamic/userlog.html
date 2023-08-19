@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <body>
+            <form action="userlog"method="POST">
+                {% csrf_token %}
+                <h1>USER LOGIN</h1>
+                <table>
+                    <tr>
+                        <td>email</td>
+                        <td><input type="email" name="eml"></td>
+                    </tr>
+                    <tr>
+                        <td>password</td>
+                        <td><input type="password" name="psw"></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><button id="btn" type="submit">LOGIN</button></td>
+                    </tr>
+                </table>
+            </form>
+        </body>
+    </head>
+</html>
